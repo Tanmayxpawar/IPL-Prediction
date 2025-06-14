@@ -1,0 +1,17 @@
+# Ignore notebooks
+*.ipynb
+
+# Ignore dataset files
+*.csv
+*.xlsx
+*.tsv
+*.json
+Data/
+Datasets/
+notebooks/
+
+# Ignore other unnecessary files
+__pycache__/
+*.pyc
+.DS_Store
+.env
