@@ -62,11 +62,11 @@ def main():
     @st.cache_resource
     def load_models_encoders():
         # Load models
-        with open('rf_model.pkl', 'rb') as f: rf = pickle.load(f)
-        with open('xgb_model.pkl', 'rb') as f: xgb = pickle.load(f)
-        with open('lr_pipeline.pkl', 'rb') as f: lr = pickle.load(f)
+        with open('Models/rf_model.pkl', 'rb') as f: rf = pickle.load(f)
+        with open('Models/xgb_model.pkl', 'rb') as f: xgb = pickle.load(f)
+        with open('Models/lr_pipeline.pkl', 'rb') as f: lr = pickle.load(f)
         # Load encoders
-        with open('fitted_label_encoders.pkl', 'rb') as f: enc = pickle.load(f)
+        with open('Models/fitted_label_encoders.pkl', 'rb') as f: enc = pickle.load(f)
         return rf, xgb, lr, enc
 
     rf_model, xgb_model, lr_pipeline, label_encoders = load_models_encoders()
