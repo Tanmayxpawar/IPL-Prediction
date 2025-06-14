@@ -10,3 +10,5 @@ app_port: 8501 # IMPORTANT: This tells Hugging Face Spaces which port your app r
 # My IPL Predictor App
 
 # This is a Streamlit application that predicts IPL outcomes using trained ML models.
+
+Deployed App Link : https://huggingface.co/spaces/Tanmxxy/IPL-Predictor
